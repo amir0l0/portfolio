@@ -1,0 +1,24 @@
+# Secrets — never commit real credentials
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# opencode and his output
+.opencode/
+.playwright-cli/
+css-style-guide-lesson.md
+figma-mcp-setup.md
+opencode.json
