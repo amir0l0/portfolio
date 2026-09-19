@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,31 +17,592 @@
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="./css/style.css">
 
-    <script src="/js/script.js"></script>
+    <script src="./js/script.js"></script>
 </head>
 <body>
- <p class="display-large">amir</p>
- <p class="display-medium">amir</p>
- <p class="display-small">amir</p>
+<!--   - #TOP BAR  -->
 
- <p class="headline-large">amir</p>
- <p class="headline-medium">amir</p>
- <p class="headline-small">amir</p>
+    <header class="topbar">
+        <a href="#" class="logo">
+            <img src="./assets/images/Logo_dark.png" alt="" width="145" height="32" class="dark" >
+            <img src="./assets/images/Logo_light.png" alt="" width="145" height="32" class="light" >
 
- <p class="title-large">amir</p>
- <p class="title-medium">amir</p>
- <p class="title-small">amir</p>
+        </a>
+        <button class="icon-btn theme-btn" data-theme-btn>
+            <span class="material-symbols-outlined dark" aria-hidden="true"> dark_mode </span>
+            <span class="material-symbols-outlined light" aria-hidden="true"> light_mode </span>
+            <div class="state-layer"></div>
+        </button>
+    </header>
 
- <p class="body-large">amir</p>
- <p class="body-medium">amir</p>
- <p class="body-small">amir</p>
+    <main class="main">
+        <article>
 
- <p class="label-large">amir</p>
- <p class="label-medium">amir</p>
- <p class="label-small">amir</p>
+            <!-- Hero section-->
 
-<p></p>
-<p></p>
+            <section class="section hero">
+                <div class="container">
+
+                    <figure class="hero-banner img-holder" style="--width: 240; --height:240;" >
+
+                        <img src="./assets/images/profile.png" width="240" height="240" alt="" class="img-cover">
+
+                    </figure>
+
+                    <div class="hero-content">
+
+                        <span class="label-large section-subtitle"> Software Engineer</span>
+
+                        <h1 class="display-small"> amir allag</h1>
+                        <p class="body-large section-text">
+                            Lorem ipsum dolor sit amet consectetur. Quam ut feugiat ut porta morbi lobortis tristique.
+                            45:20
+                        </p>
+
+                        <div class="btn-wrapper">
+                            <a href="mail:amirallag2@gmail.com" class="chip">
+                                <span class="material-symbols-outlined" aria-hidden="true"> mail </span>
+
+                                <span class="label-large">amirallag2@gmail.com</span>
+
+                                <div class="state-layer"></div>
+
+                            </a>
+
+                            <a href="tel:+1243222" class="chip">
+                                <span class="material-symbols-outlined" aria-hidden="true"> call </span>
+                                <span class="label-large">+1243222</span>
+                                <div class="state-layer"></div>
+                            </a>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </section>
+
+            <!--   #MAIN CONTENT  34:00-->
+            <div class="article">
+
+                <div class="about-card">
+
+                    <h2 class="card-title title-medium">About</h2>
+
+                    <p class="body-medium card-text">
+                        A passionate software engineer with a strong background in Computer Science.
+                    </p>
+
+                    <ul class="about-list">
+
+                        <li class="list-item">
+
+                            <span class="material-symbols-outlined" aria-hidden="true"> location_on </span>
+                            <span class="label-medium">Algeria,setif</span>
+
+                            <span class="material-symbols-outlined" aria-hidden="true"> work </span>
+                            <span class="label-medium">TechGulf Solutions</span>
+
+                            <span class="material-symbols-outlined" aria-hidden="true"> captive_portal </span>
+                            <a hreg="https://example.com" class="label-medium">https://example.com</a>
+
+
+
+                        </li>
+
+                    </ul>
+
+
+                </div>
+
+                <div>
+
+                    <!-- #PRIMARY TABS -->
+                    <div class="primary-tabs">
+
+
+                        <button class="tab-btn active" data-tab-btn="project">
+                            <span class="tab-text title-small">Projects</span>
+                            <div class="state-layer"></div>
+                        </button>
+
+
+                        <button class="tab-btn " data-tab-btn="resume">
+                            <span class="tab-text title-small">Resume</span>
+                            <div class="state-layer"></div>
+                        </button>
+
+                        <button class="tab-btn " data-tab-btn="contact">
+                            <span class="tab-text title-small">Contact</span>
+                            <div class="state-layer"></div>
+                        </button>
+
+                    </div>
+
+                    <!-- #PROJECT -->
+
+                    <section class="section tab-content active " data-tab-content="project">
+                        <div class="container">
+
+                            <div class="project-list">
+
+                                <!--1 -->
+                                <div class="card">
+
+                                    <figure class="card-banner img-holder" style="--width:334; --height:180;">
+
+                                        <img src="./assets/images/projects/project-1.png"  alt="Pixstock - Stock Media App"  width="334" height="180" class="img-cover">
+
+                                    </figure>
+
+                                    <div class="card-content">
+                                        <span class="label-large card-subtitle" >Web App</span>
+
+                                        <h3 class="title-large card-title">Pixstock - Stock Media App</h3>
+                                    </div>
+
+                                    <a href="#" class="state-layer"> </a>
+
+
+                                </div>
+
+                                <!-- 2-->
+                                <div class="card">
+
+                                    <figure class="card-banner img-holder" style="--width:334; --height:180;">
+
+                                        <img src="./assets/images/projects/project-2.png"  alt="Cook.io - Recipe App"  width="334" height="180" class="img-cover">
+
+                                    </figure>
+
+                                    <div class="card-content">
+                                        <span class="label-large card-subtitle" >Web App</span>
+
+                                        <h3 class="title-large card-title">Cook.io - Recipe App</h3>
+                                    </div>
+
+                                    <a href="#" class="state-layer"> </a>
+
+
+                                </div>
+
+
+                                <!--3 -->
+                                <div class="card">
+
+                                    <figure class="card-banner img-holder" style="--width:334; --height:180;">
+
+                                        <img src="./assets/images/projects/project-3.png"  alt="GitFinder - Github User Finder"  width="334" height="180" class="img-cover">
+
+                                    </figure>
+
+                                    <div class="card-content">
+                                        <span class="label-large card-subtitle" >Web App</span>
+
+                                        <h3 class="title-large card-title">GitFinder - Github User Finder</h3>
+                                    </div>
+
+                                    <a href="#" class="state-layer"> </a>
+
+
+                                </div>
+
+                                <!--4 -->
+                                <div class="card">
+
+                                    <figure class="card-banner img-holder" style="--width:334; --height:180;">
+
+                                        <img src="./assets/images/projects/project-4.png"  alt="Weatherio - Live Weather App"  width="334" height="180" class="img-cover">
+
+                                    </figure>
+
+                                    <div class="card-content">
+                                        <span class="label-large card-subtitle" >Web App</span>
+
+                                        <h3 class="title-large card-title">Weatherio - Live Weather App</h3>
+                                    </div>
+
+                                    <a href="#" class="state-layer"> </a>
+
+
+                                </div>
+
+                                <!--5 -->
+                                <div class="card">
+
+                                    <figure class="card-banner img-holder" style="--width:334; --height:180;">
+
+                                        <img src="./assets/images/projects/project-5.png"  alt="Tvflix - Netflix Clone 2.0"  width="334" height="180" class="img-cover">
+
+                                    </figure>
+
+                                    <div class="card-content">
+                                        <span class="label-large card-subtitle" >Web App</span>
+
+                                        <h3 class="title-large card-title">Tvflix - Netflix Clone 2.0</h3>
+                                    </div>
+
+                                    <a href="#" class="state-layer"> </a>
+
+
+                                </div>
+
+                                <!--6 -->
+                                <div class="card">
+
+                                    <figure class="card-banner img-holder" style="--width:334; --height:180;">
+
+                                        <img src="./assets/images/projects/project-6.png"  alt="Travelia - Travel Website"  width="334" height="180" class="img-cover">
+
+                                    </figure>
+
+                                    <div class="card-content">
+                                        <span class="label-large" >Web App</span>
+
+                                        <h3 class="title-large card-title">Travelia - Travel Website</h3>
+                                    </div>
+
+                                    <a href="#" class="state-layer"> </a>
+
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                    <!-- #RESUME -->
+                    <section class="section tab-content resume-tab  " data-tab-content="resume">
+
+                        <div class="container">
+
+                            <h2 class="section-title title-small">Experience</h2>
+
+                            <ul class="list">
+
+                                <!-- 1-->
+                                <li class="resume-item">
+
+                                    <div class="resume-card">
+
+
+                                        <p class="body-large">Software Engineer, TechGulf Solutions</p>
+
+                                        <span class="label-medium card-subtitle">2018 - Present</span>
+
+                                        <span class="body-medium card-text"> Led the development of a customer management system, resulting in improved efficiency and streamlined processes. </span>
+
+
+                                    </div>
+
+                                </li>
+
+                                <!-- 2-->
+                                <li class="resume-item">
+
+                                    <div class="resume-card">
+
+
+                                        <p class="body-large">Software Developer Intern, ByteOasis Corporation</p>
+
+                                        <span class="label-medium card-subtitle">2016 - 2017</span>
+
+                                        <span class="body-medium card-text"> Assisted in the development and testing of a mobile application for internal use. </span>
+
+
+                                    </div>
+
+                                </li>
+
+
+
+
+                            </ul>
+
+                            <h2 class="sectionl-title title-small">Education</h2>
+
+                            <ul class="list">
+                                 <!-- 1 -->
+                                <li class="resume-item">
+
+
+                                   <div class="resume-card">
+
+                                       <p class="body-large">
+                                           Certification in Web Development with React.js (FreeCodeCamp Certification)
+                                       </p>
+
+                                       <span class="label-medium card-subtitle">2015 - 2016</span>
+
+
+                                   </div>
+                               </li>
+
+                                <!-- 2 -->
+                                <li class="resume-item">
+
+
+                                    <div class="resume-card">
+
+                                        <p class="body-large">
+                                            Relevant Coursework: Data Structures, Algorithms, Database Management
+                                        </p>
+
+                                        <span class="label-medium card-subtitle">2014 - 2013</span>
+
+                                    </div>
+                                </li>
+
+                                <!-- 3 -->
+                                <li class="resume-item">
+
+
+                                    <div class="resume-card">
+
+                                        <p class="body-large">
+                                            Bachelor of Science in Computer Science, Alexandria University
+                                        </p>
+
+                                        <span class="label-medium card-subtitle">2010 - 2014</span>
+
+
+                                    </div>
+
+
+                            </ul>
+
+                            <h2 class="section-title title-small">Skills and Technologies</h2>
+
+                            <ul class="resume-bottom-list">
+
+                                <li class="resume-bottom-item">
+                                    <img src="./assets/images/html5.svg" width="28" height="28" loading="lazy" alt="HTML5" class="icon">
+                                    <span class="label-medium">HTML5</span>
+                                </li>
+
+                                <li class="resume-bottom-item">
+                                    <img src="./assets/images/css3.svg " width="28" height="28" loading="lazy" alt="CSS3" class="icon">
+                                    <span class="label-medium">CSS3</span>
+                                </li>
+
+                                <li class="resume-bottom-item">
+                                    <img src="./assets/images/javascript.svg" width="28" height="28" loading="lazy" alt="JavaScript" class="icon">
+                                    <span class="label-medium">JavaScript</span>
+                                </li>
+
+
+                                <li class="resume-bottom-item">
+                                    <img src="./assets/images/react.js.svg" width="28" height="28" loading="lazy" alt="React.js" class="icon">
+                                    <span class="label-medium">React.js</span>
+                                </li>
+
+
+                                <li class="resume-bottom-item">
+                                    <img src="./assets/images/node.js.svg" width="28" height="28" loading="lazy" alt="Node.js" class="icon">
+                                    <span class="label-medium">Node.js</span>
+                                </li>
+
+
+                                <li class="resume-bottom-item">
+                                    <img src="./assets/images/mongoDB.svg" width="28" height="28" loading="lazy" alt="MongoDB.js" class="icon">
+                                    <span class="label-medium">MongoDB</span>
+                                </li>
+
+
+                                <li class="resume-bottom-item">
+                                    <img src="./assets/images/VS_code.svg" width="28" height="28" loading="lazy" alt="VS Code" class="icon">
+                                    <span class="label-medium">VS Code</span>
+                                </li>
+
+
+
+
+
+                            </ul>
+
+                        </div>
+
+
+                    </section>
+
+                    <!-- #CONTACT  -->
+
+                    <section class="section tab-content contact-tab active " data-tab-content="contact">
+
+                        <div class="container">
+
+                            <div class="contact-info">
+
+                                <h4 class="section-title title-small">Contact Info</h4>
+
+
+                                <ul class="contact-info-list">
+
+                                    <!-- -->
+                                    <li class="contact-info-item" >
+                                        <div class="icon-box">
+
+                                            <span class="material-symbols-outlined" aria-hidden="true"> mail </span>
+
+                                        </div>
+
+
+                                        <div class="info-content">
+
+                                            <p class="label-small info-title">Mail Us</p>
+                                            <a herf="amirallag2@gmail.com" class="label-small info-text">amirallag2@gmail.com</a>
+                                            <a herf="amirallag2@service.com" class="label-small info-text">amirallag2@gmailservice.com</a>
+
+                                        </div>
+
+
+                                    </li>
+
+                                    <!-- -->
+                                    <li class="contact-info-item" >
+                                        <div class="icon-box">
+                                            <span class="material-symbols-outlined" aria-hidden="true"> call </span>
+                                        </div>
+
+
+                                        <div class="info-content">
+
+                                            <p class="label-small info-title">Contact Us</p>
+                                            <a herf="tel:1234567890" class="label-small info-text">amirallag2@gmail.com</a>
+                                            <a herf="tel:1234456" class="label-small info-text">amirallag2@gmailservice.com</a>
+
+                                        </div>
+
+
+                                    </li>
+
+
+                                    <!-- -->
+                                    <li class="contact-info-item" >
+                                        <div class="icon-box">
+                                            <span class="material-symbols-outlined" aria-hidden="true"> location_on </span>
+                                        </div>
+
+
+                                        <div class="info-content">
+
+                                            <p class="label-small info-title">Address</p>
+                                            <a herf="#" class="label-small info-text">Algeria,setif</a>
+
+
+                                        </div>
+
+
+                                    </li>
+
+
+
+
+                                </ul>
+
+
+                                <h4 class="title-small">Social Info</h4>
+
+                                <div class="social-list">
+
+                                    <!-- twitter-->
+                                    <a href="#" class="social-item">
+                                        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 248 204" fill="none">
+                                            <path fill="#1d9bf0" d="M221.95 51.29c.15 2.17.15 4.34.15 6.53 0 66.73-50.8 143.69-143.69 143.69v-.04c-27.44.04-54.31-7.82-77.41-22.64 3.99.48 8 .72 12.02.73 22.74.02 44.83-7.61 62.72-21.66-21.61-.41-40.56-14.5-47.18-35.07 7.57 1.46 15.37 1.16 22.8-.87-23.56-4.76-40.51-25.46-40.51-49.5v-.64c7.02 3.91 14.88 6.08 22.92 6.32C11.58 63.31 4.74 33.79 18.14 10.71c25.64 31.55 63.47 50.73 104.08 52.76-4.07-17.54 1.49-35.92 14.61-48.25 20.34-19.12 52.33-18.14 71.45 2.19 11.31-2.23 22.15-6.38 32.07-12.26-3.77 11.69-11.66 21.62-22.2 27.93 10.01-1.18 19.79-3.86 29-7.95-6.78 10.16-15.32 19.01-25.2 26.16z"/>
+                                        </svg>
+
+                                    </a>
+
+                                    <!-- Github -->
+                                    <a href="#" class="social-item" >
+                                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_65_801)">
+                                                <path d="M14 0.583374C6.265 0.583374 0 6.74337 0 14.3407C0 20.4202 4.011 25.5757 9.5725 27.3934C10.2725 27.5229 10.5292 27.097 10.5292 26.7319C10.5292 26.4052 10.5175 25.5395 10.5117 24.3927C6.61733 25.2222 5.796 22.547 5.796 22.547C5.159 20.9592 4.2385 20.5345 4.2385 20.5345C2.97033 19.6817 4.3365 19.6992 4.3365 19.6992C5.74233 19.7949 6.48083 21.1167 6.48083 21.1167C7.72917 23.2202 9.758 22.6124 10.5583 22.2612C10.6843 21.371 11.0448 20.7655 11.445 20.4214C8.33583 20.0772 5.068 18.8942 5.068 13.6232C5.068 12.1217 5.6105 10.8944 6.50883 9.93187C6.35133 9.58421 5.87883 8.18537 6.63133 6.29071C6.63133 6.29071 7.80383 5.92204 10.4813 7.70121C11.6013 7.39554 12.7913 7.24387 13.9813 7.23687C15.1713 7.24387 16.3613 7.39554 17.4813 7.70121C20.1413 5.92204 21.3138 6.29071 21.3138 6.29071C22.0663 8.18537 21.5938 9.58421 21.4538 9.93187C22.3463 10.8944 22.8888 12.1217 22.8888 13.6232C22.8888 18.9082 19.6163 20.0714 16.5013 20.4097C16.9913 20.8227 17.4463 21.6662 17.4463 22.9554C17.4463 24.7964 17.4288 26.2757 17.4288 26.7225C17.4288 27.083 17.6738 27.5135 18.3913 27.3759C23.9925 25.5699 28 20.4109 28 14.3407C28 6.74337 21.7315 0.583374 14 0.583374Z" fill="#333333"/>
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_65_801">
+                                                    <rect width="28" height="28" fill="white"/>
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </a>
+
+                                    <!-- Instgram-->
+                                    <a href="" class="social-item" >
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_66_1657)">
+                                                <mask id="mask0_66_1657" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0"
+                                                      width="24" height="24">
+                                                    <path d="M0 7.05719e-05H23.9999V24H0V7.05719e-05Z" fill="white" />
+                                                </mask>
+                                                <g mask="url(#mask0_66_1657)">
+                                                    <path
+                                                            d="M23.062 12C23.0596 12.9866 23.0485 13.9731 23.035 14.9596C23.0187 16.1498 23.0003 17.3405 22.7018 18.5103C22.3888 19.7371 21.7715 20.795 20.811 21.5783C19.7989 22.4036 18.5755 22.8375 17.2552 22.9178C15.5039 23.0243 13.7519 23.0664 12 23.0622C10.248 23.0664 8.496 23.0243 6.7448 22.9178C5.42443 22.8375 4.20109 22.4036 3.18897 21.5783C2.2285 20.795 1.61116 19.7371 1.29813 18.5103C0.999629 17.3405 0.981255 16.1498 0.964989 14.9596C0.951489 13.9731 0.940285 12.9866 0.937988 12C0.940285 11.0135 0.951489 10.0269 0.964989 9.04045C0.981255 7.85025 0.999629 6.65954 1.29813 5.48973C1.61116 4.26301 2.2285 3.20505 3.18897 2.42182C4.20109 1.59644 5.42443 1.16262 6.7448 1.08232C8.496 0.97582 10.248 0.933726 12 0.937851C13.7519 0.933726 15.5039 0.97582 17.2552 1.08232C18.5755 1.16262 19.7989 1.59644 20.811 2.42182C21.7715 3.20505 22.3888 4.26301 22.7018 5.48973C23.0003 6.65954 23.0187 7.85025 23.035 9.04045C23.0485 10.0269 23.0596 11.0135 23.062 12Z"
+                                                            style="stroke: var(--on-surface-variant)" stroke-width="1.5" stroke-miterlimit="10" />
+                                                    <path
+                                                            d="M16.875 12C16.875 14.7183 14.6714 16.9219 11.9531 16.9219C9.23484 16.9219 7.03125 14.7183 7.03125 12C7.03125 9.28174 9.23484 7.07815 11.9531 7.07815C14.6714 7.07815 16.875 9.28174 16.875 12Z"
+                                                            style="stroke: var(--on-surface-variant)" stroke-width="1.5" stroke-miterlimit="10" />
+                                                    <path
+                                                            d="M19.875 5.67188C19.875 6.4485 19.2454 7.07812 18.4687 7.07812C17.6921 7.07812 17.0625 6.4485 17.0625 5.67188C17.0625 4.89526 17.6921 4.26563 18.4687 4.26563C19.2454 4.26563 19.875 4.89526 19.875 5.67188Z"
+                                                            style="fill: var(--on-surface-variant)" />
+                                                </g>
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_66_1657">
+                                                    <rect width="24" height="24" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </a>
+
+                                </div>
+
+
+                            </div>
+
+                            <div class="contact-form">
+
+                                <h3 class="title-large">Let’s Work Together.</h3>
+                                <form action="" method="post" class="input-wrapper">
+
+                                    <input type="text" name="name"  placeholder="Name*" required class="input-field">
+
+                                    <input type="email" name="email"  placeholder="Email*" required class="input-field">
+
+                                    <input type="text" name="subject"  placeholder="Subject"  class="input-field">
+
+                                    <textarea name="message"  placeholder="Message*" required class="text-area"></textarea>
+
+                                    <button class="btn" type="submit">
+                                        <span class="label-large">Send Message</span>
+
+                                        <div class="state-layer"></div>
+
+                                    </button>
+
+                                </form>
+
+                            </div>
+
+                        </div>
+
+
+                    </section>
+
+
+
+                </div>
+
+            </div>
+
+        </article>
+
+    </main>
 
 
 </body>
